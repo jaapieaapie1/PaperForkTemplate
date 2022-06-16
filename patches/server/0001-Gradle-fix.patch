@@ -14,7 +14,7 @@ index 68b8f275f9c9e77a949ca29749a05b469bcdb910..290b20fccd4ad1b99c177f8fb633f164
  dependencies {
 -    implementation(project(":paper-api"))
 -    implementation(project(":paper-mojangapi"))
-+    implementation(project(":REPO_NAME-API"))
++    implementation(project(":paperforktemplate-API"))
 +    implementation("io.papermc.paper:paper-mojangapi:1.19-R0.1-SNAPSHOT")
      // Paper start
      implementation("org.jline:jline-terminal-jansi:3.21.0")
@@ -24,7 +24,7 @@ index 68b8f275f9c9e77a949ca29749a05b469bcdb910..290b20fccd4ad1b99c177f8fb633f164
              "Main-Class" to "org.bukkit.craftbukkit.Main",
              "Implementation-Title" to "CraftBukkit",
 -            "Implementation-Version" to "git-Paper-$implementationVersion",
-+            "Implementation-Version" to "git-REPO_NAME-$implementationVersion",
++            "Implementation-Version" to "git-paperforktemplate-$implementationVersion",
              "Implementation-Vendor" to date, // Paper
              "Specification-Title" to "Bukkit",
              "Specification-Version" to project.version,
