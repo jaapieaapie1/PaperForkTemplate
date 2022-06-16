@@ -33,6 +33,7 @@ jobs:
         if: steps.is_template.outputs.is_template == 'false'
         run: |
           echo "Renaming the project with -a(author) ${{ env.REPOSITORY_OWNER }} -n(name) ${{ env.REPOSITORY_NAME }}"
+          chmod +x .github/rename_project.sh
           .github/rename_project.sh -a ${{ env.REPOSITORY_OWNER }} -n ${{ env.REPOSITORY_NAME }}
 
       - uses: stefanzweifel/git-auto-commit-action@v4
