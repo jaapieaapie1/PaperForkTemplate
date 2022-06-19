@@ -38,7 +38,7 @@ subprojects {
 }
 
 paperweight {
-    serverProject.set(project(":REPO_NAME-Server"))
+    serverProject.set(project(":paperforktemplate-Server"))
 
     usePaperUpstream(providers.gradleProperty("paperRef")) {
         withPaperPatcher {
@@ -48,8 +48,8 @@ paperweight {
             apiPatchDir.set(layout.projectDirectory.dir("patches/api"))
             serverPatchDir.set(layout.projectDirectory.dir("patches/server"))
 
-            apiOutputDir.set(layout.projectDirectory.dir("REPO_NAME-API"))
-            serverOutputDir.set(layout.projectDirectory.dir("REPO_NAME-Server"))
+            apiOutputDir.set(layout.projectDirectory.dir("paperforktemplate-API"))
+            serverOutputDir.set(layout.projectDirectory.dir("paperforktemplate-Server"))
         }
     }
 }

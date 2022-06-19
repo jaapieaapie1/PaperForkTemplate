@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/REPO_NAME-API" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/REPO_NAME-Server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paperforktemplate-API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paperforktemplate-Server" vcs="Git" />
   </component>
 </project>

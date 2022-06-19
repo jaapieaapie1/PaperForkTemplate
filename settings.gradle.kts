@@ -5,6 +5,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = "REPO_NAME"
+rootProject.name = "paperforktemplate"
 
-include("REPO_NAME-API", "REPO_NAME-Server")
+include("paperforktemplate-API", "paperforktemplate-Server")

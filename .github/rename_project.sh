@@ -12,8 +12,8 @@ echo "Project Name: $name";
 
 echo "Renaming project..."
 
-original_author="REPO_OWNER"
-original_name="REPO_NAME"
+original_author="jaapieaapie1"
+original_name="paperforktemplate"
 # for filename in $(find . -name "*.*")
 for filename in $(git ls-files)
 do

@@ -8,7 +8,7 @@
           <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.17.1/779f60f3844dadc3ef597976fcb1e5127b1f343d/log4j-core-2.17.1.jar" />
           <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.17.1/d771af8e336e372fb5399c99edabe0919aeaf5b2/log4j-api-2.17.1.jar" />
         </processorPath>
-        <module name="REPO_NAME.REPO_NAME-Server.main" />
+        <module name="paperforktemplate.paperforktemplate-Server.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="18" />
