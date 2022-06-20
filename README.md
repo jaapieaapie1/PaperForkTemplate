@@ -38,4 +38,4 @@ For a more in depth explanation of this structure please visit paper's [Contribu
 
 ### Slow performance on windows
 If you are experiencing slow performance I recommend installing WSL2 ubuntu, and using that to build the project.
-(The project should then also be in the WSL's drive)
+(The project should then also be in the WSL's filesystem)
